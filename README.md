@@ -1,5 +1,5 @@
 # Group-speed-dating-bot
-Bot de Discord que simula citas rápidas en grupo.
+Bot de Discord en español que simula citas rápidas en grupo.
 
 ## Créditos
 - Bot tomado y modificado de <a href="https://github.com/isabellaenriquez/speed-dating-bot">
@@ -20,7 +20,7 @@ Isabella Enriquez</a>
 10. Modifica el decorador `@commands.has_role` antes de cada comando para que tenga el nombre del rol que puede usar el bot (o elimínalo por completo si deseas permitir que cualquiera lo use).
 11. Si lo deseas, puedes modificar el estado del bot en la función `on_ready`.
 12. Para ejecutar el bot, simplemente ejecuta `python3 bot.py` mientras estás en la carpeta.
-# Comandos
+## Comandos
 - ``!add <USER ID>`` - agrega un miembro del servidor a la lista de participantes si hay un juego de citas rápidas en curso
 - ``!begin <CHANNEL ID>`` - inicia un juego de citas rápidas, dado el ID del canal de voz donde están los participantes iniciales (nota: debe haber 4 o más usuarios para poder jugar); se te pedirá el número de rondas (si las hay), tamaño del grupo y la duración de cada ronda (si la hay)
 - ``!end`` - fuerza el fin del juego
